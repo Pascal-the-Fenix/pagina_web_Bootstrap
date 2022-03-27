@@ -1,0 +1,272 @@
+<!-- Luis Pascal Barros Suarez -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Pascal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <!-- header -->
+  <body class="bg-dark">
+    <div class="row m-1 border rounded-3 bg-azul-oscuro">
+      <header class="col m-1 text-black">
+        <div class="row align-items-center">
+          <p class="display-1 text-center">Motos</p>
+        </div>
+      </header>
+    </div>
+    <!-- progres bar -->
+<nav
+        class="row m-1 mt-2 col border text-black-50 rounded-3 bg-azul-cielo align-items-center justify-content-center"
+>
+<div class="container-fluid">
+        <div class="progress m-2 ms-2 me-2">
+          <div
+            class="w-75 text-black progress-bar progress-bar-striped progress-bar-animated bg-info"
+          >
+            <em><b>loaded</b></em>
+          </div>
+          <div
+            class="w-25 text-black progress-bar progress-bar-striped progress-bar-animated bg-warning"
+          >
+            <em><b>missing to load</b></em>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+    <!-- aside -->
+    <div class="row text-white justify-content-around mt-2 mb-2">
+      <aside
+        class="col-xxl-2 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-11 text-center border rounded-3 bg-azul-verdoso text-black mb-sm-1"
+      >
+        <h2><strong class="text-break" >Motos mas destacadas: </strong></h2>
+        <div class="row">
+          <button
+            class="mt-5 p-2 bg-warning justify-content-center align-items-center"
+            data-bs-toggle="collapse"
+            data-bs-target="#img1"
+          >
+            Yamaha YZF-R3:
+          </button>
+          <img
+            class="mt-2 col rounded-pill collapse"
+            id="img1"
+            src="fotos/Yamaha-YZF-R3.jpg"
+            alt="Lo sentimos la imagen no cargo correctamente"
+          /><br /><br /><br />
+
+          <button
+            class="mt-5 p-2 bg-warning justify-content-center align-items-center"
+            data-bs-toggle="collapse"
+            data-bs-target="#img2"
+          >
+            Keeway RKF 125:
+          </button>
+          <img
+            class="mt-2 col rounded-circle collapse"
+            id="img2"
+            src="fotos/Keeway-RKF-125.jpg"
+            alt="Lo sentimos la imagen no cargo correctamente"
+          /><br /><br /><br />
+
+          <button
+            class="mt-5 p-2 bg-warning justify-content-center align-items-center"
+            data-bs-toggle="collapse"
+            data-bs-target="#img3"
+          >
+            Yamaha MT 125:
+          </button>
+          <img
+            class="mt-2 col img-thumbnail collapse"
+            id="img3"
+            src="fotos/Yamaha-mt-125.jpg"
+            alt="Lo sentimos la imagen no cargo correctamente"
+          /><br /><br /><br />
+
+          <button
+            class="mt-5 mb-4 p-2 bg-warning justify-content-center align-items-center"
+            data-bs-toggle="collapse"
+            data-bs-target="#img4"
+          >
+            Kawasaki Z 650 SE 2021:
+          </button>
+          <img
+            class="mt-2 col mb-3 collapse"
+            id="img4"
+            src="fotos/Z-650-SE-2021.png"
+            alt="Lo sentimos la imagen no cargo correctamente"
+          /><br /><br /><br />
+        </div>
+      </aside>
+
+      <!-- section -->
+      <div
+        class="border rounded-3 col-xxl-9 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-11 d-flex flex-column mt-1 mb-1 justify-content-center align-content-center bg-azul-claro"
+      >
+        <section
+          class="container-fluid h-100 col-12 row d-flex text-black-50 justify-content-around"
+        >
+          <h2 class="mt-4 text-center"><strong>Videos:</strong></h2>
+
+          <!-- videos -->
+          <div class="col-md-10 offset-md-1">
+            <div class="row pb-row justify-content-center">
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/rB1oSvTCFco?start=8"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Honda CBR 300R
+                </label>
+              </div>
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/P3MHK4Jd7Kc"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Ducaty SuperSport 950s</label
+                >
+              </div>
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/eHO7BYjKtvw"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Aprilla RS 600</label
+                >
+              </div>
+            </div>
+            <div class="row pb-row justify-content-center">
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/KGg0qT_x9TM"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Kawasaki Z 650 SE 2021</label
+                >
+              </div>
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/MQKU7_APbWA"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Kawasaki Ninja H2R 2018</label
+                >
+              </div>
+              <div class="col-md-3 pb-video">
+                <iframe
+                  class="pb-video-frame video-youtube"
+                  src="https://www.youtube.com/embed/vez7SHiITAY"
+                  allowfullscreen
+                ></iframe>
+                <label class="form-control label-warning text-center"
+                  >Yamaha YZF R6</label
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div class="row m-1">
+      <footer class="col border rounded-3 bg-azul-oscuro text-dark mt-2">
+        <ul class="pagination m-2 justify-content-center">
+          <li
+            class="page-item"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="Formulario"
+          >
+            <a class="page-link" href="Formulario.html">Previous</a>
+          </li>
+          <li
+            class="page-item"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="Inicio"
+          >
+            <a class="page-link" href="Index.html">1</a>
+          </li>
+          <li
+            class="page-item"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="Galeria"
+          >
+            <a class="page-link" href="Galeria.html">2</a>
+          </li>
+          <li
+            class="page-item"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="Informacion"
+          >
+            <a class="page-link" href="Informacion.html">3</a>
+          </li>
+          <li
+            class="page-item"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="Formulario"
+          >
+            <a class="page-link" href="Formulario.html">4</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="#">5</a>
+          </li>
+          <li
+            class="page-item disabled"
+            data-placement="top"
+            data-toggle="mensaje"
+            title="deshabilitado"
+          >
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="mensaje"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
